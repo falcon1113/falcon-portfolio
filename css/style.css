@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+
+
+
+/* mainページ*/
+.title{
+	font-size: 60px;
+	font-family:Arial, Helvetica, sans-serif
+}
+
+.main {
+	background-image: url(../img/taka2.jpg);
+	background-size: cover;
+	background-color: rgb(235, 235, 235);
+	background-repeat: no-repeat;
+}
+
+
+
+/* ヘッダー関係 */
+.head {
+	/*
+	max-width: 1100px;
+	*/
+	margin: auto;
+	padding: 4%;
+	display: flex;
+	justify-content: space-between;
+
+	background-color: white;
+
+	background-image: url(../img/haikei1.jpg);
+	background-size: cover;
+	background-color: rgb(235, 235, 235);
+	background-repeat: no-repeat;
+}
+
+/*
+header {
+	color:azure;
+}
+*/
+
+nav a {
+	color: black;
+}
+
+.home-nav {
+	display: flex;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-top: 34px;
+	list-style: none;
+}
+
+.home-nav li {
+	margin-left: 36px;
+}
+
+
+
+/* ボディ全般 */
+body {
+	background: linear-gradient(white, rgb(195, 195, 195));
+	background-repeat: no-repeat;
+	/*
+	background-image: url(../img/haikei3.jpg);
+	background-size: cover;
+	background-color: rgb(235, 235, 235);
+	background-repeat: no-repeat;
+	*/
+}
+
+article {
+	padding: 6%;
+	min-height: 500px;
+}
+
+.textzone {
+	padding: 3%;
+}
+
+.back {
+	/*
+	padding: 5%;
+	*/
+
+	/*
+	background-image: url(../img/haikei3.jpg);
+	background-size: cover;
+	background-color: rgb(235, 235, 235);
+	background-repeat: no-repeat;
+	*/
+
+	/*
+	background-image: linear-gradient(white, lightblue);
+	*/
+}
+
+
+
+/* 画像全般 */
+.img {
+	height: 400px;
+	width: 500px;
+	object-fit: cover;
+}
+
+.imgs {
+	display: grid;
+	gap: 50px;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	margin-top: 6%;
+	margin-bottom: 50px;
+}
+
+
+
+/* リンク関連 */
+a {
+	color: gray;
+	/* text-decoration: none; */
+}
+
+.link {
+	margin-top: 5%;
+}
+
+
+
+/* ホームページ */
+.linkzone {
+	line-height: 8px;
+}
+
+.linktitle {
+	font-size: 20px;
+	font-weight: bolder;
+	/*text-decoration: underline;*/
+}
+
+.linktext {
+	color: gray;
+}
+
+
+
+/* 紹介ページ */
+.item {
+	padding: 3%;
+	height: 400px;
+	display: flex;	
+	max-width: 2000px;
+	vertical-align: middle;
+}
+
+.shoukaiimg {
+	max-width: 40%;
+	min-height: 400px;
+}
+
+.textitem {
+	width: 100%;
+	margin: 5%;
+}
+
+.textitem2 {
+	justify-content: flex-end;
+	padding-left: 8%;
+}
+
+
+
+/* 連絡先ページ */
+.renrakusaki {
+	padding-left: 30px;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	background-color: lightblue;
+	padding: 3% 20px;
+}
+
+td {
+	background-color: aliceblue;
+	padding: 3% 20px;
+}
+
+.formarea {
+	padding-left: 30px;
+	/*
+	margin-right: 500px;
+	*/
+}
+
+.formitem {
+	margin-top: 30px;
+}
+
+.formarea label {
+	/*
+	width: 100px;
+	*/
+	display: inline-block;
+	width: 100px;
+	vertical-align: top;	
+}
+
+.form {
+	width: 400px;
+	height: 25px;
+}
+
+select {
+	width: 150px;
+	height: 25px;
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+}
+
+.subbtn {
+	width: 100px;
+	height: 30px;
+	/*
+	margin: 3%;
+	*/
+}
+
+.chuu {
+	font-size: small;
+	color: crimson;
+}
